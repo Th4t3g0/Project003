@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="icon" type="image/x-icon" href="Images/tic-tac-toe.png">
+<style>
+body{ background-color:#f5ef40 ;
+margin:0;
+padding:0;
+}
+hr{border:none;}
+footer{text-align:center;
+padding:20px;
+background-color:#f5ee31;
+margin-top:10px;
+margin-bottom:0px;
+height:auto;
+}
+h1{text-align:center;
+padding:20px;
+background-color:#f5ee31;
+margin-bottom:0;
+}
+h2{
+padding-top:10px;
+}
+#first,#rules,#counter,#game_board{
+text-align:center;
+width:50%;
+background-color:#f5ee31;
+margin-right:auto;
+margin-left:auto;}
+.opponent:hover{
+background-color:#fcfcf2;
+border-radius:10px;
+cursor:pointer;
+}
+
+
+#first{
+height:auto;
+margin-top:0;}
+#rules{ padding-right:20px;
+margin-bottom:0;}
+#second{
+display:none;
+
+}
+.ab{width:150px;
+height:150px;
+margin-bottom:20px;
+vertical-align:top;
+color:Blue;
+font-size:50px;
+}
+
+#game_board{
+margin-top:0;
+padding-top:20px;
+min_width:500px;
+}
+
+#counter{display:none;}
+main{display:none;}
+a{text-decoration:none;
+color:grey;
+}
+footer{d
+color:grey;
+}
+a:visited{color:grey;}
+ul{list-style-type:none;}
+#video{text-align:center;
+width:50%;
+margin-right:auto;
+margin-left:auto;
+
+}
+#rule{padding-bottom:30px;}
+video{margin-top:0;}
+ol{margin:0;}
+</style>
+
+
+</head>
+<body>
+
+
+<h1><img src="Images/tic-tac-toe.png" alt=" " width="24px" heifght="300" > Tic Tac Toe</h1>
+<hr>
+<article id="first">
+<h2>Play Tic Toc Toe</h2>
+
+
+<button class="opponent" id="multiplayer" ><img src="Images/cutout.png" alt=" " width="275" heifght="300" ><br>Multiplayer</button>
+<button class="opponent" id="computer"><img src="Images/chatbot.png" alt=" " width="275" heifght="300"><br>Vs Computer</button>
+
+
+</article>
+<article id="second">
+<div id="rules">
+<h2>Rules in the game</h2>
+<ol>
+<li>The game is played on a grid that's 3 squares by 3 squares.</li>
+<li>You are <strong>X</strong>, your friend (or the computer in this case) is <strong>O</strong>. Players take turns putting their marks in empty squares.</li>
+<li>The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</li>
+<li>When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</li>
+</ol>
+</div>
+<div id="video">
+<video width="500" height="500" autoplay muted>
+<source src="Images/How_to_play.webm" type="video/webm">
+</video>
+</div>
+</article>
+
+<article id="counter">
+<p> <strong>Vs Computer</strong> still in progress... rather goto <strong>MULTIPLAYER</strong></p>
+</article>
+
+<Main id="game">
+
+<div id="game_board" class="center hidden">
+<tr>
+<td><button type="button" class="ab" id="a"> </button></td>
+<td><button type="button" class="ab" id="b"> </button></td>
+<td><button type="button" class="ab" id="c"> </button><br></td>
+</tr>
+<tr>
+<td><button type="button" class="ab" id="d"> </button></td>
+<td><button type="button" class="ab" id="e"> </button></td>
+<td><button type="button" class="ab" id="f"> </button><br></td>
+</tr>
+<tr>
+<td><button type="button" class="ab" id="g"> </button></td>
+<td><button type="button" class="ab" id="h"> </button></td>
+<td><button type="button" class="ab" id="i"> </button></td>
+</tr>
+ </table>
+<hr>
+
+</Main>
+
+<hr>
+<footer id="footer1">
+<p id="footer">Copyright reserved &copy</p>
+<ul>
+<li><a href="https://www.flaticon.com/free-icons/tic-tac-toe" title="tic tac toe icons" target="_blank">Tic tac toe icons created by Us and Up - Flaticon</a></li>
+<li><a href="https://www.flaticon.com/free-icons/robot" title="robot icons" target="_blank">Robot icons created by Good Ware - Flaticon</a></li>
+<li><a href="https://www.flaticon.com/free-icons/human" title="human icons" target="_blank">Human icons created by Trazobanana - Flaticon</a></li>
+<li><a href="https://www.flaticon.com/free-icons/human" title="human icons" target="_blank">Human icons created by Trazobanana - Flaticon</a></li>
+<li><a href="https://www.flaticon.com/free-icons/chatbot" title="chatbot icons" target="_blank">Chatbot icons created by Freepik - Flaticon</a></li>
+</ul>
+</footer>
+<script src="a.js"></script>
+</body>
+</html>
