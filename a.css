@@ -1,0 +1,80 @@
+body{ background-color:#f5ef40 ;
+margin:0;
+padding:0;
+}
+div#game_board {
+    min-width: 300px;
+    min-height: 500px;
+   width:300px;
+}
+hr{border:none;}
+footer{text-align:center;
+padding:20px;
+background-color:#f5ee31;
+margin-top:10px;
+margin-bottom:0px;
+height:auto;
+}
+h1{text-align:center;
+padding:20px;
+background-color:#f5ee31;
+margin-bottom:0;
+}
+h2{
+padding-top:10px;
+}
+#first,#rules,#counter,#game_board{
+text-align:center;
+width:50%;
+background-color:#f5ee31;
+margin-right:auto;
+margin-left:auto;}
+.opponent:hover{
+background-color:#fcfcf2;
+border-radius:10px;
+cursor:pointer;
+}
+
+
+#first{
+height:auto;
+margin-top:0;}
+#rules{ padding-right:20px;
+margin-bottom:0;}
+#second{
+display:none;
+
+}
+.ab{width:150px;height:150px;margin-bottom: 0;vertical-align:top;color:Blue;font-size:50px;}
+
+#game_board{
+margin-top:0;
+padding-top:0px;
+min_width:500px;
+}
+
+div#game_board {
+    min-width: 500px;
+    min-height: 500px;
+    /* width: auto; */
+}
+
+#counter{display:none;}
+main{display:none;}
+a{text-decoration:none;
+color:grey;
+}
+footer{d
+color:grey;
+}
+a:visited{color:grey;}
+ul{list-style-type:none;}
+#video{text-align:center;
+width:50%;
+margin-right:auto;
+margin-left:auto;
+
+}
+#rule{padding-bottom:30px;}
+video{margin-top:0;}
+ol{margin:0;}
